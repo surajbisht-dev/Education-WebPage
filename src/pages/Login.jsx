@@ -18,7 +18,7 @@ export default function LoginPage() {
         </p>
 
         <form className="space-y-4">
-          {/* Email Address */}
+          
           <div>
             <label className="block text-xs text-[#8F00FF] font-semibold mb-1">
               Email Address
@@ -30,7 +30,7 @@ export default function LoginPage() {
             />
           </div>
 
-          {/* Password */}
+        
           <div>
             <label className="block text-xs text-[#8F00FF] font-semibold mb-1">
               Password
@@ -42,7 +42,7 @@ export default function LoginPage() {
             />
           </div>
 
-          {/* Login Button */}
+       
           <button
             type="button"
             onClick={handleLogin}
