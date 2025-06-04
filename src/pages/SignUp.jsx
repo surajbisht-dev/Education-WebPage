@@ -4,8 +4,8 @@ export default function SignupPage() {
   const navigate = useNavigate();
 
   const handleCreateAccount = (e) => {
-    e.preventDefault(); // stop form submission
-    navigate("/login"); // then navigate
+    e.preventDefault(); 
+    navigate("/login"); 
   };
 
   return (
@@ -18,7 +18,7 @@ export default function SignupPage() {
         </h2>
 
         <form className="mt-6 space-y-4">
-          {/* Full Name */}
+          
           <div>
             <label className="block text-xs text-[#8F00FF] font-semibold mb-1">
               Full Name<span className="text-red-500">*</span>
@@ -30,7 +30,7 @@ export default function SignupPage() {
             />
           </div>
 
-          {/* Phone Number */}
+          
           <div>
             <label className="block text-xs text-[#8F00FF] font-semibold mb-1">
               Phone number<span className="text-red-500">*</span>
@@ -42,7 +42,7 @@ export default function SignupPage() {
             />
           </div>
 
-          {/* Email */}
+    
           <div>
             <label className="block text-xs text-[#8F00FF] font-semibold mb-1">
               Email address<span className="text-red-500">*</span>
@@ -54,7 +54,6 @@ export default function SignupPage() {
             />
           </div>
 
-          {/* Password */}
           <div>
             <label className="block text-xs text-[#8F00FF] font-semibold mb-1">
               Password<span className="text-red-500">*</span>
@@ -66,7 +65,6 @@ export default function SignupPage() {
             />
           </div>
 
-          {/* Company Name */}
           <div>
             <label className="block text-xs text-[#8F00FF] font-semibold mb-1">
               Company name
@@ -78,7 +76,6 @@ export default function SignupPage() {
             />
           </div>
 
-          {/* Are you an Agency */}
           <div>
             <label className="block text-xs text-gray-600 font-medium mb-1">
               Are you an Agency?<span className="text-red-500">*</span>
@@ -103,7 +100,7 @@ export default function SignupPage() {
             </div>
           </div>
 
-          {/* Create Account Button */}
+       
           <button
             type="submit"
             onClick={handleCreateAccount}
